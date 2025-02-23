@@ -8,7 +8,7 @@ public class Main {
 
         //This is my first code in Java
 
-        // By using for loop!!!
+        // By using "for loop"!!!
         for(int i = 0; i < 7; i ++){
             System.out.println("Hello Vistula" + i);
         }
@@ -39,7 +39,16 @@ public class Main {
             case "C":
                 System.out.println("You got average point");
                 break;
+            case "D":
+                    System.out.println("You got bad point");
+                break;
+            case "F":
+                System.out.println("You failed");
+            default:
+                System.out.println("invalid grade");
         }
         scanner.close();
+
+        System.out.print("See you, bye");
     }
 }
